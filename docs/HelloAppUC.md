@@ -1,10 +1,10 @@
-\## UC3: Display Hello with Default Value
+\## UC6: Substring Method
 
 
 
-\- Accepts optional command-line argument
+\- Uses substring() to remove trailing delimiter
 
-\- Uses "World" if no input is given
+\- Cleaner than conditional comma handling
 
-\- Prevents runtime errors
+\- Uses StringBuilder
 
