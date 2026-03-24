@@ -1,10 +1,10 @@
-\## UC4: Display Hello with Multiple Names
+\## UC5: Enhanced For Loop
 
 
 
-\- Accepts multiple command-line arguments
+\- Uses for-each loop to process multiple inputs
 
-\- Joins names using comma separator
+\- Uses StringBuilder for efficient string building
 
-\- Defaults to "World" if no input
+\- Defaults to "World"
 

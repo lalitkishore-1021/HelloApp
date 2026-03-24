@@ -6,12 +6,23 @@ public class HelloApp {
 
         String names;
 
-        // If no arguments → default
+        // Default case
         if (args.length == 0) {
             names = "World";
         } else {
-            // Join all names with comma
-            names = String.join(", ", args);
+            StringBuilder nameBuilder = new StringBuilder();
+            boolean first = true;
+
+            // Enhanced for loop
+            for (String name : args) {
+                if (!first) {
+                    nameBuilder.append(", ");
+                }
+                nameBuilder.append(name);
+                first = false;
+            }
+
+            names = nameBuilder.toString();
         }
 
         System.out.println("Hello, " + names + "!");
