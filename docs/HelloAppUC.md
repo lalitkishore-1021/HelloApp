@@ -1,10 +1,10 @@
-\## UC3: Display Hello with Default Value
+\## UC4: Display Hello with Multiple Names
 
 
 
-\- Accepts optional command-line argument
+\- Accepts multiple command-line arguments
 
-\- Uses "World" if no input is given
+\- Joins names using comma separator
 
-\- Prevents runtime errors
+\- Defaults to "World" if no input
 
