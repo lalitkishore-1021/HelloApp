@@ -1,10 +1,5 @@
-\## UC6: Substring Method
+## UC7: String.join()
 
-
-
-\- Uses substring() to remove trailing delimiter
-
-\- Cleaner than conditional comma handling
-
-\- Uses StringBuilder
-
+- Uses built-in String.join()
+- No loops required
+- Cleanest implementation
