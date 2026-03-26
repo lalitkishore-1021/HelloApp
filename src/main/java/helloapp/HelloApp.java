@@ -4,27 +4,13 @@ public class HelloApp {
 
     public static void main(String[] args) {
 
-        String result;
-
-        // Default case
+        String names;
         if (args.length == 0) {
-            result = "World";
+            names = "World";
         } else {
-            StringBuilder nameBuilder = new StringBuilder();
-
-            // Append all names with ", "
-            for (String name : args) {
-                nameBuilder.append(name).append(", ");
-            }
-
-            // Remove last ", "
-            if (nameBuilder.length() > 0) {
-                result = nameBuilder.substring(0, nameBuilder.length() - 2);
-            } else {
-                result = "World";
-            }
+            names = String.join(", ", args);
         }
 
-        System.out.println("Hello, " + result + "!");
+        System.out.println("Hello, " + names + "!");
     }
 }
